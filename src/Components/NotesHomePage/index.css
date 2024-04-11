@@ -1,0 +1,228 @@
+.app-container {
+    background-image: linear-gradient(#9ba9eb, #c3caea);
+    margin: 0px;
+}
+
+@media screen and (max-width:767px) {
+    .add-note-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0px 40px 0px 40px;
+    }
+    .input-container{
+        align-self: flex-start;
+    }
+    .title-input {
+        height: 40px;
+        width: 100%;
+        padding-left: 10px;
+        font-size: 20px;
+        margin-bottom: 15px;
+        outline: none;
+        font-family: "Roboto";
+    }
+    
+    .description-input {
+        width:100%;
+        padding-left: 10px;
+        font-size: 20px;
+        margin-bottom: 15px;
+        outline: none;
+        padding-top: 5px;
+        font-family: "Roboto";
+    }
+
+    .form-container {
+        align-self: flex-start;
+    }
+
+    .heading {
+        font-size: 34px;
+        font-weight: 700;
+        align-self: flex-start;
+        
+    }
+
+    .label {
+        font-size: 24px;
+        padding-bottom: 12px;        
+    }
+    
+    .btn {
+        text-align: center;
+    }
+    
+    .add-btn {
+        background-color: navy;
+        color: white;
+        padding: 8px 15px 8px 15px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        transition: all ease 0.2s;
+    }
+    
+    .add-btn:hover {
+        background-color: grey;
+    }
+
+    .your-notes-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .your-notes-heading {
+        font-size: 34px;
+    }
+
+    .search-icon {
+        padding: 6px 10px 6px 10px;
+        background-color: white;
+        margin-top: 32px;
+    }
+    
+    .search-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .search-input-class {
+        border: 1px solid white;
+        outline: none;
+        margin-top: 32px;
+        padding: 5px;
+        border-radius: 3px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        padding-left: 10px;
+        margin-right: 10px;
+    }
+    
+}
+
+@media screen and (min-width: 768px){
+    .title-input {
+        height: 40px;
+        min-width:480px;
+        padding-left: 10px;
+        font-size: 20px;
+        margin-bottom: 15px;
+        outline: none;
+        font-family: "Roboto";
+    }
+    
+    .description-input {
+        min-width:480px;
+        padding-left: 10px;
+        font-size: 20px;
+        margin-bottom: 15px;
+        outline: none;
+        padding-top: 5px;
+        font-family: "Roboto";
+    }
+    .form-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    
+    .input-container {
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .heading {
+        font-family: "Roboto";
+        font-size: 45px;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    
+    .label {
+        font-size: 24px;
+        padding-bottom: 12px;
+    }
+    
+    
+    
+    
+    
+    .btn {
+        text-align: center;
+    }
+    
+    .add-btn {
+        background-color: navy;
+        color: white;
+        padding: 8px 15px 8px 15px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        transition: all ease 0.2s;
+    }
+    
+    .add-btn:hover {
+        background-color: grey;
+    }
+    
+    .sep-line {
+        border: 1px solid grey;
+    }
+    
+    .your-notes-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .notes-list-cont {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .your-notes-header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 15px 0px 15px;
+    }
+    
+    
+    
+    .search-icon {
+        padding: 6px 10px 6px 10px;
+        background-color: white;
+        margin-top: 32px;
+    }
+    
+    .search-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .search-input-class {
+        border: 1px solid white;
+        outline: none;
+        margin-top: 32px;
+        padding: 5px;
+        border-radius: 3px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        padding-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .your-notes-heading {
+        font-size: 45px;
+    }
+}
+
